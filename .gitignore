@@ -1,0 +1,8 @@
+# To ignore files created by Visual Studio
+.vs/
+
+# Ignore Work In Progress folder
+wip/
+
+# Ignoring code snippets to save for later
+snippets.txt
