@@ -14,13 +14,39 @@ body {
 .center-div {
   max-width: 900px;
   margin: 0 auto;
-  /* background-image: url(../img/so-white.png); */
   background-color: #f9fafa;
   padding: 1rem;
 }
 
 /* ~NAV~ */
 /* nav { ... } */
+
+.btn-primary {
+  width: 30px;
+  height: 30px;
+  background-color: #f9fafa;
+  border-color: #f9fafa;
+  background-image: url(../img/plus.svg);
+  background-size: 100%;
+  margin: auto;
+  box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #f9fafa;
+  border-color: #f9fafa;
+}
+
+.btn-primary:focus,
+.btn-check:focus + .btn-primary,
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
 
 .profile {
   border-radius: 50%;
