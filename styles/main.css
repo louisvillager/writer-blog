@@ -1,6 +1,8 @@
 /* ~GENERAL STYLES~ */
 
-/* body { ... } */
+body {
+  background-image: url(../img/symphony.png); /* Background image by Toptal Subtle Patterns */
+}
 /* h1, h2, h3, h4 { ... } */
 /* p { ... } */
 
@@ -9,6 +11,17 @@
 /* ~HEADER~ */
 
 /* ~MAIN~ */
+.center-div {
+  max-width: 900px;
+  margin: 0 auto;
+  /* background-image: url(../img/so-white.png); */
+  background-color: #f9fafa;
+  padding: 1rem;
+}
+
+/* ~NAV~ */
+/* nav { ... } */
+
 .profile {
   border-radius: 50%;
 }
