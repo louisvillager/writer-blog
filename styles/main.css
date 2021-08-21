@@ -33,11 +33,6 @@ body {
 }
 
 .btn-primary:hover,
-.btn-primary:focus {
-  background-color: #f9fafa;
-  border-color: #f9fafa;
-}
-
 .btn-primary:focus,
 .btn-check:focus + .btn-primary,
 .btn-check:active + .btn-primary:focus,
@@ -45,6 +40,8 @@ body {
 .btn-primary.active:focus,
 .btn-primary:active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
+  background-color: #f9fafa;
+  border-color: #f9fafa;
   box-shadow: none;
 }
 
