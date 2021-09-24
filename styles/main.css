@@ -21,11 +21,28 @@ body {
 /* ~NAV~ */
 /* nav { ... } */
 
+.intro {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.intro-header {
+  display: flex;
+  /* align-items: center; */
+}
+
+.btn-primary,
+.intro-title {
+  display: inline-block;
+}
+
 .btn-primary {
   width: 30px;
   height: 30px;
-  background-color: #f9fafa;
-  border-color: #f9fafa;
+  background-color: white;
+  border-color: white;
   background-image: url(../img/plus.svg);
   background-size: 100%;
   margin: auto;
@@ -40,9 +57,27 @@ body {
 .btn-primary.active:focus,
 .btn-primary:active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  background-color: #f9fafa;
-  border-color: #f9fafa;
+  background-color: white;
+  border-color: white;
   box-shadow: none;
+}
+
+.btn-primary {
+  transition: transform 0.25s linear;
+}
+
+.btn-primary[aria-expanded='true'] {
+  transform: rotate(270deg);
+}
+
+.intro-title {
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+.card-body {
+  border: none;
+  padding: 1em 0.25em;
 }
 
 .profile {
