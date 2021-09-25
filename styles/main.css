@@ -31,7 +31,6 @@ body {
 
 .intro-header {
   display: flex;
-  /* align-items: center; */
 }
 
 .btn-primary,
